@@ -1,0 +1,5 @@
+jar xf Creator2D.jar native/
+jar xf Creator2D.jar assets/
+java -Djava.library.path="native" -jar Creator2D.jar 1
+rm -r native/
+rm -r assets/
